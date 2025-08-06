@@ -19,7 +19,7 @@ section {
 }
 header {
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),
-    url("../img/Manila.png");
+    url("../img/manila.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -51,7 +51,7 @@ header a {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.5;
-
+    margin-top: 32px;
     color: #272044;
     letter-spacing: 3px;
     padding: 16px 32px;
@@ -68,9 +68,9 @@ header a {
 footer {
     color: white;
     background-image: linear-gradient(
-        rgba(39, 32, 68, 0.9), 
-        rgba (39, 32, 68, 0.9)),
-    url("..img/PH-Boracay.png");
+        rgba(39, 32, 68, 0.7), 
+        rgba(39, 32, 68, 0.7)),
+    url("../img/boracay.png");
 
     background-repeat: no-repeat ;
     background-size: cover;
@@ -90,8 +90,7 @@ footer p{
     font-size: 16px;
     line-height: 24px;
     opacity: 0.8;
-    margin: 20px;
-    line-height: 24px;
+    margin-right: 20px;
 }
 
 footer ul {
