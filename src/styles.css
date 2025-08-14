@@ -23,10 +23,10 @@ body {
     width: 100%;
     display: block;
 }
+
 .grid-2-columns {
     grid-template-columns: 1fr 1fr;
 }
-
 
 .grid-3-columns {
     grid-template-columns: 1fr 1fr 1fr;
@@ -90,7 +90,7 @@ section.secondary {
 }
 header {
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),
-    url("../img/manila.png");
+    url("../img/marikinapics/marikinacityriverpark.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -122,23 +122,21 @@ header a {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.5;
-    margin-top: 32px;
-    color: #272044;
-    letter-spacing: 3px;
-    padding: 16px 32px;
-    display: inline-block;
-    gap: 32px;
-    letter-spacing: 3px;
     text-align: center;
-    text-transform: uppercase;
+    color: #272044;
+    padding: 16px 32px;
+    margin-top: 32px;
+    display: inline-block;
+    letter-spacing: 3px;
     text-decoration: none;
-    margin: 40px 0;
+    text-transform: uppercase;
     background: white;
 }
 
 main {
     background-color: white;
 }
+
 main h2 {
     font-weight: 700;
     font-size: 16px;
@@ -179,7 +177,7 @@ main h5{
 main p {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
     color: #272044;
     opacity: 0.7;
@@ -189,7 +187,7 @@ footer {
     background-image: linear-gradient(
         rgba(39, 32, 68, 0.7), 
         rgba(39, 32, 68, 0.7)),
-    url("../img/boracay.png");
+    url("../img/marikinapics/biggestshoes.png");
 
     background-repeat: no-repeat ;
     background-size: cover;
